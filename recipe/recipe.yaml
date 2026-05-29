@@ -1,7 +1,7 @@
 schema_version: 1
 
 context:
-  version: "5.0.0"
+  version: "4.2.0"
 
 package:
   name: coolname
@@ -9,7 +9,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/c/coolname/coolname-${{ version }}.tar.gz
-  sha256: 594bc6c98ebc75ddd51c0ce10efbb5d2556c14eac60b5b36900dfdd5db20eecf
+  sha256: b0f2d6d4654d627230e143f9efa5c5e1955b11e0cdd54211558c1170496f9f19
 
 build:
   number: 0
@@ -53,3 +53,4 @@ about:
 extra:
   recipe-maintainers:
     - ocefpaf
+    - vinisalazar
